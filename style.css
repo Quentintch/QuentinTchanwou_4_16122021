@@ -648,6 +648,8 @@ h6,
 p,
 label,
 .btn,
+#quote-text,
+#quote-author,
 a {
     font-family: "helvetica";
     font-weight: 400;
@@ -704,7 +706,9 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h2, 
+#quote-text,
+#quote-author{
     font-size: 22px;
     line-height: 1.4em;
 }
@@ -750,6 +754,38 @@ h4 {
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
+}
+
+/*Modifications Audit SEO et Accessibilité*/
+
+#title1,
+#title2,
+#quote-text,
+#quote-author{
+    margin: auto;
+}
+
+
+#title1{
+    width: 613px;
+}
+
+#title2{
+    width: 465px;
+}
+
+#quote-text{
+    font-style: italic;
+    font-size: 17px;
+}
+
+#quote-author{
+    font-size: 12px;
+}
+
+#quote-author,
+#quote-text{
+    width: 500px;
 }
 
 .black-background {
