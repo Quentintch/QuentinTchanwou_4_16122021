@@ -41,7 +41,7 @@
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav" id="menu-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
 						<a href="index.html" title="Accueil" aria-label="Accueil">Accueil</a>
@@ -63,10 +63,10 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white" role="text">
+				<h1 class="text-center hero-bloc-text tc-white">
 					Parlons web design !
 				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace" role="text">
+				<p class="text-center mg-lg tc-white tight-width-whitespace">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 				</p>
@@ -81,29 +81,29 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Votre message a été envoyé" fail-msg="Il semble que notre serveur ne répond pas, Désolé pour ce dérangement !" role="form">
+				<form id="form_1" novalidate>
 					<div class="form-group">
 						<label for="name">
 							Nom
 						</label>
-						<input id="name" type="text" class="form-control" placeholder="Ex: Tchanwou" role="text" required />
+						<input id="name" type="text" class="form-control" placeholder="Ex: Tchanwou" required />
 					</div>
 					<div class="form-group">
 						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" placeholder="exemple@gmail.com" role="text" required />
+						<input id="email" class="form-control" type="email" placeholder="exemple@gmail.com" required />
 					</div>
 					<div class="form-group">
-						<label for="known">
+						<label for="input_504">
 							Comment nous avez-vous connu ?
 						</label>
-						<input id="known" class="form-control" type="text" placeholder="Dans un blog ou moteur de recherche, etc. " role="text" required id="input_504" />
+						<input class="form-control" type="text" placeholder="Dans un blog ou moteur de recherche, etc. " required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Bonjour, Je souhaite... Cordialement, Nom de la société ou du particulier." role="text" required></textarea>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Bonjour, Je souhaite... Cordialement, Nom de la société ou du particulier." required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -111,7 +111,7 @@
 				</form>
 			</div>
 			<div class="col-sm-6">
-				<p role="text">
+				<p>
 					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
 			</div>
