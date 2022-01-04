@@ -55,7 +55,7 @@ $(function()
 			   		{
 						if($('#form-alert').length == 0)
 						{
-							$form.append("<div id='form-alert'><div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>Il semble que notre serveur ne répond pas, Désolé pour ce dérangement !</strong></div></div>");
+							$form.append("<div id='form-alert'><div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>Il semble que notre serveur ne réponde pas, Désolé pour ce dérangement !</strong></div></div>");
 						}	
 			   		},
 		   		});
