@@ -33,25 +33,25 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
+<div class="bloc bgc-white l-bloc " id="bloc-0" role="banner">
 	<div class="container bloc-sm">
 
-		<nav class="navbar row" role="navigation" aria-label="main-nav-menu">
+		<nav class="navbar row" role="navigation" aria-label="Menu de navigation principal">
 			<div class="navbar-header">
 				<a class="navbar-brand" title="La chouette agence" role="link" href="index.html"><img src="img/la-chouette-agence.png" alt="Logo de la Chouette Agence" height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" title="Dérouler le menu" aria-haspopup="menu" aria-controls="menu-nav" aria-expanded="false">
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" title="Dérouler le menu" role="button" aria-haspopup="menu" aria-controls="menu-nav" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
 			<div id="menu-nav" class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Accueil</a>
+						<a href="index.html" role="link" title="Accueil" aria-label="Accueil">Accueil</a>
 					</li>
 					<li>
 					</li>
 					<li>
-						<a href="page2.html">page2 &gt;</a>
+						<a href="page2.html" role="link" title="Contact" aria-label="Contact">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -61,17 +61,17 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-1-presentation -->
-<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
+<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero" role="region">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Logo de la Chouette Agence" />
-				<h1 class="text-center hero-bloc-text tc-white ">
+				<img src="img/logo.png" class="center-block image-resize-mode" width="100" title= "La chouette agence" role= "image" alt="Logo de la Chouette Agence" />
+				<h1 class="text-center hero-bloc-text tc-white " role="text" aria-label="Titre de la page">
 					La chouette agence<br/>
 					Entreprise de webdesign à Lyon
 				</h1>
 				<div class="text-center">
-					<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+					<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero" title="Contact" role="button" aria-label="Contact">Contact</a>
 				</div>
 			</div>
 		</div>
@@ -84,7 +84,7 @@
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<h2 id="title1">La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.</h2>
+				<h2 id="title1" role="text" aria-label="Première partie">La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.</h2>
 			</div>
 		</div>
 		<div class="row voffset-lg med-width-whitespace">
@@ -92,10 +92,10 @@
 				<div class="text-center">
 					<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<h3 class="mg-md text-center">
+				<h3 class="mg-md text-center" role="text">
 					Web design
 				</h3>
-				<p class="text-center ">
+				<p class="text-center " role="text">
 					Que vous ayez un site web qui a besoin d&rsquo;un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.
 				</p>
 			</div>
@@ -103,10 +103,10 @@
 				<div class="text-center">
 					<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<h3 class="mg-md text-center">
+				<h3 class="mg-md text-center" role="text">
 					&nbsp;Stratégie marketing
 				</h3>
-				<p class="text-center ">
+				<p class="text-center " role="text">
 					Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre vos objectifs commerciaux afin de vous proposer le meilleur design possible.<br>
 				</p>
 			</div>
@@ -114,16 +114,16 @@
 				<div class="text-center">
 					<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<h3 class="mg-md text-center">
+				<h3 class="mg-md text-center" role="text">
 					Illustrations web
 				</h3>
-				<p class="text-center ">
+				<p class="text-center " role="text">
 					Un bon design n'est rien sans de bonnes illustrations. Laissez la créativité de nos graphistes web talentueux donner à vos pages une touche finale d'élégance.
 				</p>
 			</div>
 		</div>
 		<div class="row voffset-lg voffset">
-			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center" role="text" aria-label="Citation">
 				<p id="quote-text">"La chouette agence est une excellente agence web ! Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes en lignes à Lyon."</p>
 				<p id="quote-author">Maxime Guibard, PDG de À vos fourchettes</p>
 			</div>
@@ -137,11 +137,11 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
-				<h2 class="mg-md text-center tc-white">
+				<h2 class="mg-md text-center tc-white" role="text">
 					Nous souhaitons aider les entreprises de la région Lyonnaise à attirer de nouveaux clients. Nous aidons les entreprises locales à réaliser leur ciblage marketing.<br>
 				</h2>
-				<p class="text-center white">
-					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site, nos UI/UX designers travailleront sur la conception de sites web innovants. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, nous créerons une charte graphique et trouverons une idée de site web original. Nous travaillerons ensemble pour créer une stratégie webmarketing qui rendra vos sites facilement trouvables sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a><br>
+				<p class="text-center white" role="text">
+					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site, nos UI/UX designers travailleront sur la conception de sites web innovants. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, nous créerons une charte graphique et trouverons une idée de site web original. Nous travaillerons ensemble pour créer une stratégie webmarketing qui rendra vos sites facilement trouvables sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="page2.html" role="link" title="Contact" aria-label="Contact">Contactez notre équipe</a><br>
 				</p>
 			</div>
 		</div>
@@ -154,45 +154,45 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<h2 id="title2">Nous travaillons avec beaucoup de clients, voici nos réalisations.</h2>
+				<h2 id="title2" role="text" aria-label="Seconde partie">Nous travaillons avec beaucoup de clients, voici nos réalisations.</h2>
 			</div>
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="Pages de journaux lyonnais" class="img-responsive portfolio-thumb" /></a>
-				<h3 class="mg-md text-center">
+				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="Pages de journaux lyonnais" class="img-responsive portfolio-thumb" role="image" /></a>
+				<h3 class="mg-md text-center" role="text">
 					Refonte d'un site web pour un journal local
 				</h3>
-				<p class="text-center">
+				<p class="text-center" role="text">
 					Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Photographe avec son appareil photo" /></a>
-				<h3 class="mg-md text-center">
+				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Photographe avec son appareil photo" role="image" /></a>
+				<h3 class="mg-md text-center" role="text">
 					Création d'un site vitrine pour photographes
 				</h3>
-				<p class="text-center">
+				<p class="text-center" role="text">
 					Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
 				</p>
 			</div>
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.jpg" class="img-responsive portfolio-thumb" alt="Technologie d'un blogueur voyageur"/></a>
-				<h3 class="mg-md text-center">
+				<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.jpg" class="img-responsive portfolio-thumb" alt="Technologie d'un blogueur voyageur" role="image" /></a>
+				<h3 class="mg-md text-center" role="text">
 					Création d'un site internet pour un voyageur
 				</h3>
-				<p class="text-center">
+				<p class="text-center" role="text">
 					Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.jpg" class="img-responsive portfolio-thumb" alt="Atelier d'une agence de mariage" /></a>
-				<h3 class="mg-md text-center">
+				<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.jpg" class="img-responsive portfolio-thumb" alt="Atelier d'une agence de mariage" role="image" /></a>
+				<h3 class="mg-md text-center" role="text">
 					Conception d'un site web pour une agence de mariage
 				</h3>
-				<p class="text-center">
+				<p class="text-center" role="text">
 					Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
 				</p>
 			</div>
@@ -205,11 +205,11 @@
 <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 	<div class="container bloc-lg">
 		<div class="row">
-			<h2 class="mg-md text-center tc-white">
+			<h2 class="mg-md text-center tc-white" role="text">
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
 			<div class="col-sm-12 text-center">
-				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero" role="button" title="Contact" aria-label="Contact">Contact</a>
 			</div>
 		</div>
 	</div>
